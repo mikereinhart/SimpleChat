@@ -1,7 +1,7 @@
 #chat-form {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 75%;
 
   input {
     font-size: 24px;
@@ -12,4 +12,22 @@
   input[type=submit] {
     width: 10%;
   }
+}
+
+#chats {
+  .chat-alert{
+    background-color: gray;
+  }
+
+  p {
+    display: inline-block;
+  }
+}
+
+#user-info {
+  position: fixed;
+  border: 1px solid black;
+  top: 0;
+  right: 0;
+  background-color: gray;
 }
