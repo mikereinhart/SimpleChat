@@ -7,4 +7,9 @@ SimpleChatFour::Application.routes.draw do
   post 'sessions' => 'sessions#create'
   delete 'logout' => 'sessions#destroy'
 
+  # get 'users/new' => 'users#new'
+  # post 'users' => 'users#create'
+
+  resources :users
+
 end
