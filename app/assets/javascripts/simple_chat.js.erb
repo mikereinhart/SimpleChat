@@ -20,6 +20,8 @@ function receive_chat(data){
     // $('#chat_input').text('')});
   $('#chat_input').val('')
 
+  document.getElementById("chats").scrollTop = document.getElementById("chats").scrollHeight;
+
 }
 
 function switch_channel(e){
